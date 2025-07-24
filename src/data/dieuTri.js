@@ -1,0 +1,93 @@
+export const dieuTriList = [
+  {
+    id: 'DT001',
+    hocVienId: 'HV001',
+    tenHocVien: 'Nguyễn Văn A',
+    tenThuoc: 'Methadone',
+    lieuLuong: 40,
+    ngayDung: '2025-07-10',
+    chiDinh: 'Uống sáng',
+    ketQuaXetNghiem: 'Âm tính',
+    danhGiaConNghien: 'Ổn định',
+    donThuocTuan: 'Methadone 40mg/ngày',
+    trangThai: 'Đang điều trị'
+  },
+  {
+    id: 'DT002',
+    hocVienId: 'HV001',
+    tenHocVien: 'Nguyễn Văn A',
+    tenThuoc: 'Methadone',
+    lieuLuong: 40,
+    ngayDung: '2025-07-11',
+    chiDinh: 'Uống sáng',
+    ketQuaXetNghiem: 'Dương tính',
+    danhGiaConNghien: 'Còn triệu chứng',
+    donThuocTuan: 'Methadone 40mg/ngày',
+    trangThai: 'Đang điều trị'
+  },
+  {
+    id: 'DT003',
+    hocVienId: 'HV001',
+    tenHocVien: 'Nguyễn Văn A',
+    tenThuoc: 'Methadone',
+    lieuLuong: 40,
+    ngayDung: '2025-07-12',
+    chiDinh: 'Uống sáng',
+    ketQuaXetNghiem: 'Âm tính',
+    danhGiaConNghien: 'Ổn định',
+    donThuocTuan: 'Methadone 40mg/ngày',
+    trangThai: 'Đang điều trị'
+  },
+  {
+    id: 'DT004',
+    hocVienId: 'HV001',
+    tenHocVien: 'Nguyễn Văn A',
+    tenThuoc: 'Methadone',
+    lieuLuong: 40,
+    ngayDung: '2025-07-13',
+    chiDinh: 'Uống sáng',
+    ketQuaXetNghiem: 'Dương tính',
+    danhGiaConNghien: 'Còn triệu chứng',
+    donThuocTuan: 'Methadone 40mg/ngày',
+    trangThai: 'Đang điều trị'
+  },
+  {
+    id: 'DT005',
+    hocVienId: 'HV001',
+    tenHocVien: 'Nguyễn Văn A',
+    tenThuoc: 'Methadone',
+    lieuLuong: 40,
+    ngayDung: '2025-07-14',
+    chiDinh: 'Uống sáng',
+    ketQuaXetNghiem: 'Âm tính',
+    danhGiaConNghien: 'Ổn định',
+    donThuocTuan: 'Methadone 40mg/ngày',
+    trangThai: 'Hoàn tất'
+  },
+  {
+    id: 'DT006',
+    hocVienId: 'HV002',
+    tenHocVien: 'Lê Văn B',
+    tenThuoc: 'Suboxone',
+    lieuLuong: 12,
+    ngayDung: '2025-07-10',
+    chiDinh: 'Uống chiều',
+    ketQuaXetNghiem: 'Dương tính',
+    danhGiaConNghien: 'Còn triệu chứng',
+    donThuocTuan: 'Suboxone 12mg/ngày',
+    trangThai: 'Tái nghiện'
+  },
+  {
+    id: 'DT007',
+    hocVienId: 'HV002',
+    tenHocVien: 'Lê Văn B',
+    tenThuoc: 'Suboxone',
+    lieuLuong: 12,
+    ngayDung: '2025-07-11',
+    chiDinh: 'Uống chiều',
+    ketQuaXetNghiem: 'Âm tính',
+    danhGiaConNghien: 'Ổn định',
+    donThuocTuan: 'Suboxone 12mg/ngày',
+    trangThai: 'Hoàn tất'
+  }
+]; 
