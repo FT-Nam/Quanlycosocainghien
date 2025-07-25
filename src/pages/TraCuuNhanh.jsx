@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
 const mockData = [
-  { type: 'Học viên', name: 'Nguyễn Văn A', info: 'Lớp 1, Đang cai', id: 'HV001', more: '1990, Nam, CCCD: 012345678901' },
-  { type: 'Học viên', name: 'Lê Văn B', info: 'Lớp 2, Chờ xử lý', id: 'HV002', more: '1988, Nam, CCCD: 012345678902' },
-  { type: 'Cán bộ', name: 'Trần Thị B', info: 'Giáo viên, Lớp 2', id: 'CB001', more: 'Email: b.tran@trungtam.gov.vn' },
-  { type: 'Công việc', name: 'Làm vườn', info: 'Khu A, 07:00-09:00', id: 'CV1', more: 'Nhóm 1, Cán bộ: Trần Thị B' },
-  { type: 'Lịch học', name: 'Giáo dục công dân', info: 'Lớp 1, Tuần 1', id: 'LH1', more: 'GV: Nguyễn Văn A, 08:00 03/06/2024' },
-  { type: 'Lịch học', name: 'Tư vấn tâm lý', info: 'Lớp 2, Tháng 5', id: 'LH2', more: 'GV: Trần Thị B, 14:00 05/06/2024' },
+  { type: 'Học viên', name: 'Nguyễn Minh Tuấn', info: 'Lớp 1, Đang cai', id: 'HV001', more: '1990, Nam, CCCD: 012345678901' },
+  { type: 'Học viên', name: 'Lê Thị Hồng', info: 'Lớp 2, Chờ xử lý', id: 'HV002', more: '1988, Nữ, CCCD: 012345678902' },
+  { type: 'Cán bộ', name: 'Trần Quốc Dũng', info: 'Giáo viên, Lớp 2', id: 'CB001', more: 'Email: dung.tran@trungtam.gov.vn' },
+  { type: 'Công việc', name: 'Làm vườn', info: 'Khu A, 07:00-09:00', id: 'CV1', more: 'Nhóm 1, Cán bộ: Trần Quốc Dũng' },
+  { type: 'Lịch học', name: 'Giáo dục công dân', info: 'Lớp 1, Tuần 1', id: 'LH1', more: 'GV: Nguyễn Minh Tuấn, 08:00 03/06/2024' },
+  { type: 'Lịch học', name: 'Tư vấn tâm lý', info: 'Lớp 2, Tháng 5', id: 'LH2', more: 'GV: Trần Quốc Dũng, 14:00 05/06/2024' },
 ];
 
 const PAGE_SIZE = 5;

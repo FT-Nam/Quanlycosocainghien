@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', hoTen: 'Nguyễn Văn A', ngheNghiep: 'Công nhân', trinhDo: 'THPT', noiLamViec: 'Hà Nội' },
-    { id: '2', hoTen: 'Trần Thị B', ngheNghiep: 'Nông dân', trinhDo: 'THCS', noiLamViec: 'Nam Định' },
+    { id: '1', hoTen: 'Nguyễn Minh Vũ', ngheNghiep: 'Công nhân', trinhDo: 'THPT', noiLamViec: 'Hà Nội' },
+    { id: '2', hoTen: 'Vũ Phi Long', ngheNghiep: 'Nông dân', trinhDo: 'THCS', noiLamViec: 'Nam Định' },
 ];
 
 export default function HocVanList() {

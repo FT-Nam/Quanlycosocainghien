@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', maTaiSan: 'TS01', tinhTrangBanDau: 'Hỏng', tinhTrangSuaChua: 'Đã sửa', ngaySuaChua: '2024-07-01', nguoiChiuTN: 'Nguyễn Văn A' },
-    { id: '2', maTaiSan: 'TS02', tinhTrangBanDau: 'Bảo trì', tinhTrangSuaChua: 'Đang sửa', ngaySuaChua: '2024-07-02', nguoiChiuTN: 'Trần Thị B' },
+    { id: '1', maTaiSan: 'TS01', tinhTrangBanDau: 'Hỏng', tinhTrangSuaChua: 'Đã sửa', ngaySuaChua: '2024-07-01', nguoiChiuTN: 'Nguyễn Văn Nam' },
+    { id: '2', maTaiSan: 'TS02', tinhTrangBanDau: 'Bảo trì', tinhTrangSuaChua: 'Đang sửa', ngaySuaChua: '2024-07-02', nguoiChiuTN: 'Trần Thị Huyền' },
 ];
 
 export default function SuaChuaList() {

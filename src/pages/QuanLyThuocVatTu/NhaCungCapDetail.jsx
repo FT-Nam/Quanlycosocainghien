@@ -21,7 +21,7 @@ export default function NhaCungCapDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setValues({ maNCC: 'NCC001', tenNCC: 'Công ty Dược A', trangThai: 'Đang hợp tác', moTa: 'Nhà cung cấp chính' });
+            setValues({ maNCC: 'NCC001', tenNCC: 'Công ty Dược Hà Nội', trangThai: 'Đang hợp tác', moTa: 'Nhà cung cấp chính' });
         } else {
             setValues(defaultValues);
         }

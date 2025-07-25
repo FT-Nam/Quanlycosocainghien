@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', tenHocVien: 'Nguyễn Văn A', maHocVien: 'HV01', vaoPhong: '2024-06-01', raPhong: '2024-07-01', ghiChu: 'Chuyển phòng' },
-    { id: '2', tenHocVien: 'Trần Thị B', maHocVien: 'HV02', vaoPhong: '2024-06-15', raPhong: '', ghiChu: '' },
+    { id: '1', tenHocVien: 'Nguyễn Minh Vũ', maHocVien: 'HV01', vaoPhong: '2024-06-01', raPhong: '2024-07-01', ghiChu: 'Chuyển phòng' },
+    { id: '2', tenHocVien: 'Vũ Phi Long', maHocVien: 'HV02', vaoPhong: '2024-06-15', raPhong: '', ghiChu: '' },
 ];
 
 export default function LichSuLuuTruList() {

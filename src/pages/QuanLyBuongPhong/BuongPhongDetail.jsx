@@ -16,7 +16,7 @@ export default function BuongPhongDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setData({ maPhong: 'P101', tenPhong: 'Phòng 101', loaiPhong: 'Ngủ', soLuong: 10, sucChua: 12, tinhTrang: 'Đang sử dụng', phuTrach: 'Nguyễn Văn A', soLuongHocVien: 10 });
+            setData({ maPhong: 'P101', tenPhong: 'Phòng 101', loaiPhong: 'Ngủ', soLuong: 10, sucChua: 12, tinhTrang: 'Đang sử dụng', phuTrach: 'Nguyễn Văn Nam', soLuongHocVien: 10 });
         } else {
             setData(initData);
         }

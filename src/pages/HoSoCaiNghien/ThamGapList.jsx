@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', hoTen: 'Nguyễn Văn A', thanNhan: 'Nguyễn Thị C', moiQuanHe: 'Mẹ', thoiGian: '2023-06-01' },
-    { id: '2', hoTen: 'Trần Thị B', thanNhan: 'Trần Văn D', moiQuanHe: 'Chồng', thoiGian: '2023-05-15' },
+    { id: '1', hoTen: 'Nguyễn Minh Vũ', thanNhan: 'Nguyễn Thị Hồng', moiQuanHe: 'Mẹ', thoiGian: '2023-06-01' },
+    { id: '2', hoTen: 'Vũ Phi Long', thanNhan: 'Vũ Nhật Minh', moiQuanHe: 'Chồng', thoiGian: '2023-05-15' },
 ];
 
 export default function ThamGapList() {

@@ -27,7 +27,7 @@ export default function SucKhoeDetail({ mode }) {
                 chieuCao: '170', canNang: '65', nhipTim: '70', huyetAp: '120/80', benhManTinh: '',
                 loaiMaTuy: 'Heroin', tuoiLanDauSD: '18', tuoiLanDauTiem: '', tongThoiGianSD: '', soTienSD: '', cachSD: '',
                 lanXetNghiem: '1', thoiGianXetNghiem: '2023-01-01', ketQuaXetNghiem: 'Âm tính',
-                thoiGianChanDoan: '2023-01-01', ketQuaChanDoan: 'Ổn định', bacSi: 'BS. A', benhLyKem: '', tenThuoc: 'Methadone', soLuongThuoc: '30'
+                thoiGianChanDoan: '2023-01-01', ketQuaChanDoan: 'Ổn định', bacSi: 'Đỗ Minh Khoa', benhLyKem: '', tenThuoc: 'Methadone', soLuongThuoc: '30'
             });
         } else {
             setData(initData);

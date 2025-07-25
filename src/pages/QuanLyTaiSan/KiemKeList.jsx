@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', maSanPham: 'TS01', tenSanPham: 'Máy tính xách tay', thoiGian: '2024-07-01', tonThucTe: 5, chenhLech: 0, lyDo: '', giaTriChenhLech: 0, nguoiThucHien: 'Nguyễn Văn A' },
-    { id: '2', maSanPham: 'TS02', tenSanPham: 'Máy in', thoiGian: '2024-07-01', tonThucTe: 2, chenhLech: -1, lyDo: 'Hỏng', giaTriChenhLech: 2000000, nguoiThucHien: 'Trần Thị B' },
+    { id: '1', maSanPham: 'TS01', tenSanPham: 'Máy tính xách tay', thoiGian: '2024-07-01', tonThucTe: 5, chenhLech: 0, lyDo: '', giaTriChenhLech: 0, nguoiThucHien: 'Nguyễn Văn Hùng' },
+    { id: '2', maSanPham: 'TS02', tenSanPham: 'Máy in', thoiGian: '2024-07-01', tonThucTe: 2, chenhLech: -1, lyDo: 'Hỏng', giaTriChenhLech: 2000000, nguoiThucHien: 'Trần Thị Hồng' },
 ];
 
 export default function KiemKeList() {

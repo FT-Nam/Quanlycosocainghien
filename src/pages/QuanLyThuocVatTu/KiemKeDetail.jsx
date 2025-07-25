@@ -25,7 +25,7 @@ export default function KiemKeDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setValues({ maSanPham: 'SP001', tenSanPham: 'Thuốc giảm đau', thoiGianKiemKe: '2024-07-01', slTonThucTe: 95, slChenhLech: -5, lyDo: 'Hao hụt', giaTriChenhLech: '-500000', nguoiThucHien: 'Nguyễn Văn A' });
+            setValues({ maSanPham: 'SP001', tenSanPham: 'Thuốc giảm đau', thoiGianKiemKe: '2024-07-01', slTonThucTe: 95, slChenhLech: -5, lyDo: 'Hao hụt', giaTriChenhLech: '-500000', nguoiThucHien: 'Nguyễn Văn Nam' });
         } else {
             setValues(defaultValues);
         }

@@ -19,7 +19,7 @@ export default function DanCuDetail({ mode }) {
         if (!isNew && id) {
             // TODO: fetch data by id
             setData({
-                cccd: '012345678901', hoTen: 'Nguyễn Văn A', tenKhac: '', ngaySinh: '1990-01-01', gioiTinh: 'Nam', noiSinh: 'Hà Nội', noiDangKyKhaiSinh: '', queQuan: 'Hà Nội', danToc: 'Kinh', tonGiao: 'Không', quocTich: 'Việt Nam', nhomMau: 'O', ngayCapCCCD: '2010-01-01', noiCapCCCD: 'Hà Nội', ngayHetHanCCCD: '2030-01-01', noiThuongTru: 'Hà Nội', noiTamTru: '', noiOHienTai: 'Hà Nội', honNhan: 'Độc thân', cmnd9: ''
+                cccd: '012345678901', hoTen: 'Nguyễn Minh Vũ', tenKhac: '', ngaySinh: '1990-01-01', gioiTinh: 'Nữ', noiSinh: 'Hà Nội', noiDangKyKhaiSinh: '', queQuan: 'Hà Nội', danToc: 'Kinh', tonGiao: 'Không', quocTich: 'Việt Nam', nhomMau: 'O', ngayCapCCCD: '2010-01-01', noiCapCCCD: 'Hà Nội', ngayHetHanCCCD: '2030-01-01', noiThuongTru: 'Hà Nội', noiTamTru: '', noiOHienTai: 'Hà Nội', honNhan: 'Độc thân', cmnd9: ''
             });
         } else {
             setData(initData);

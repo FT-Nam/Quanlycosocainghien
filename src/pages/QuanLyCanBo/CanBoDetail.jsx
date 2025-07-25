@@ -16,7 +16,7 @@ export default function CanBoDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setData({ maCanBo: 'CB01', tenCanBo: 'Nguyễn Văn A', cccd: '012345678901', ngaySinh: '1980-01-01', gioiTinh: 'Nam', queQuan: 'Hà Nội', danToc: 'Kinh', tonGiao: 'Không', quocTich: 'Việt Nam', noiOHienTai: 'Hà Nội', phongBan: 'Phòng Hành chính', hocVi: 'Thạc sĩ', hocHam: '', capBac: 'Chuyên viên', chucVu: 'Trưởng phòng', chucDanh: '', trangThai: 'Đang làm', batDau: '2010-01-01', ketThuc: '' });
+            setData({ maCanBo: 'CB01', tenCanBo: 'Phan Thành Nam', cccd: '012345678901', ngaySinh: '1980-01-01', gioiTinh: 'Nam', queQuan: 'Hà Nội', danToc: 'Kinh', tonGiao: 'Không', quocTich: 'Việt Nam', noiOHienTai: 'Hà Nội', phongBan: 'Phòng Hành chính', hocVi: 'Thạc sĩ', hocHam: '', capBac: 'Chuyên viên', chucVu: 'Trưởng phòng', chucDanh: '', trangThai: 'Đang làm', batDau: '2010-01-01', ketThuc: '' });
         } else {
             setData(initData);
         }

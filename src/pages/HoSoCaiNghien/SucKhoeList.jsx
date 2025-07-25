@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', hoTen: 'Nguyễn Văn A', tinhTrang: 'Tốt', chuanDoan: 'Không bệnh', thuoc: 'Không' },
-    { id: '2', hoTen: 'Trần Thị B', tinhTrang: 'Trung bình', chuanDoan: 'Viêm gan', thuoc: 'Thuốc A' },
+    { id: '1', hoTen: 'Nguyễn Minh Vũ', tinhTrang: 'Tốt', chuanDoan: 'Không bệnh', thuoc: 'Không' },
+    { id: '2', hoTen: 'Vũ Phi Long', tinhTrang: 'Trung bình', chuanDoan: 'Viêm gan', thuoc: 'Thuốc A' },
 ];
 
 export default function SucKhoeList() {

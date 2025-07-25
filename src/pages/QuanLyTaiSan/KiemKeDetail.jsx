@@ -16,7 +16,7 @@ export default function KiemKeDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setData({ maSanPham: 'TS01', tenSanPham: 'Máy tính xách tay', thoiGian: '2024-07-01', tonThucTe: 5, chenhLech: 0, lyDo: '', giaTriChenhLech: 0, nguoiThucHien: 'Nguyễn Văn A' });
+            setData({ maSanPham: 'TS01', tenSanPham: 'Máy tính xách tay', thoiGian: '2024-07-01', tonThucTe: 5, chenhLech: 0, lyDo: '', giaTriChenhLech: 0, nguoiThucHien: 'Nguyễn Văn Hùng' });
         } else {
             setData(initData);
         }

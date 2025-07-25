@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', hoTen: 'Nguyễn Văn A', loaiCai: 'Bắt buộc', coSo: 'Trung tâm 1', thoiGianBatDau: '2022-01-01', thoiGianKetThuc: '2022-06-01' },
-    { id: '2', hoTen: 'Trần Thị B', loaiCai: 'Tự nguyện', coSo: 'Trung tâm 2', thoiGianBatDau: '2021-03-01', thoiGianKetThuc: '2021-09-01' },
+    { id: '1', hoTen: 'Nguyễn Minh Vũ', loaiCai: 'Bắt buộc', coSo: 'Trung tâm 1', thoiGianBatDau: '2022-01-01', thoiGianKetThuc: '2022-06-01' },
+    { id: '2', hoTen: 'Vũ Phi Long', loaiCai: 'Tự nguyện', coSo: 'Trung tâm 2', thoiGianBatDau: '2021-03-01', thoiGianKetThuc: '2021-09-01' },
 ];
 
 export default function QuaTrinhCaiList() {

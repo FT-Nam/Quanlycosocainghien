@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', hoTen: 'Nguyễn Văn A', chuongTrinh: 'Giáo dục pháp luật', diemTB: 8.5, xepLoai: 'Giỏi' },
-    { id: '2', hoTen: 'Trần Thị B', chuongTrinh: 'Tư vấn tâm lý', diemTB: 7.2, xepLoai: 'Khá' },
+    { id: '1', hoTen: 'Nguyễn Minh Vũ', chuongTrinh: 'Giáo dục pháp luật', diemTB: 8.5, xepLoai: 'Giỏi' },
+    { id: '2', hoTen: 'Vũ Phi Long', chuongTrinh: 'Tư vấn tâm lý', diemTB: 7.2, xepLoai: 'Khá' },
 ];
 
 export default function GiaoDucList() {

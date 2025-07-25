@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', hoTen: 'Nguyễn Văn A', ketQua: 'Đạt', loaiXacNhan: 'Giấy xác nhận', thoiGianCap: '2023-07-01' },
-    { id: '2', hoTen: 'Trần Thị B', ketQua: 'Chưa đạt', loaiXacNhan: 'Giấy chứng nhận', thoiGianCap: '2023-06-15' },
+    { id: '1', hoTen: 'Nguyễn Minh Vũ', ketQua: 'Đạt', loaiXacNhan: 'Giấy xác nhận', thoiGianCap: '2023-07-01' },
+    { id: '2', hoTen: 'Vũ Phi Long', ketQua: 'Chưa đạt', loaiXacNhan: 'Giấy chứng nhận', thoiGianCap: '2023-06-15' },
 ];
 
 export default function TaiHoaNhapList() {

@@ -22,9 +22,9 @@ const fakeReports = {
     table: {
       headers: ['STT', 'Họ và tên', 'Phác đồ', 'Ngày bắt đầu', 'Ngày kết thúc', 'Kết quả'],
       rows: [
-        ['1', 'Nguyễn Văn A', 'Methadone', '01/01/2024', '01/06/2024', 'Âm tính'],
-        ['2', 'Trần Thị B', 'Buprenorphine', '01/01/2024', '01/06/2024', 'Âm tính'],
-        ['3', 'Lê Văn C', 'Methadone', '01/01/2024', '01/06/2024', 'Tái nghiện'],
+        ['1', 'Nguyễn Minh Tuấn', 'Methadone', '01/01/2024', '01/06/2024', 'Âm tính'],
+        ['2', 'Lê Thị Hồng', 'Buprenorphine', '01/01/2024', '01/06/2024', 'Âm tính'],
+        ['3', 'Phạm Văn Dương', 'Methadone', '01/01/2024', '01/06/2024', 'Tái nghiện'],
       ]
     },
     summary: 'Tổng số ca điều trị: 3. Âm tính: 2. Tái nghiện: 1.'
@@ -34,9 +34,9 @@ const fakeReports = {
     table: {
       headers: ['STT', 'Họ và tên', 'Nhóm', 'Công việc', 'Số ngày công', 'Nhận xét'],
       rows: [
-        ['1', 'Nguyễn Văn A', 'Nhóm 1', 'Làm vườn', '20', 'Tốt'],
-        ['2', 'Trần Thị B', 'Nhóm 2', 'Chăn nuôi', '18', 'Khá'],
-        ['3', 'Lê Văn C', 'Nhóm 1', 'Làm vườn', '10', 'Cần cố gắng'],
+        ['1', 'Nguyễn Minh Tuấn', 'Nhóm 1', 'Làm vườn', '20', 'Tốt'],
+        ['2', 'Lê Thị Hồng', 'Nhóm 2', 'Chăn nuôi', '18', 'Khá'],
+        ['3', 'Phạm Văn Dương', 'Nhóm 1', 'Làm vườn', '10', 'Cần cố gắng'],
       ]
     },
     summary: 'Tổng số học viên lao động: 3. Trung bình ngày công: 16.'

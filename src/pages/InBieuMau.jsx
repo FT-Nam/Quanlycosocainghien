@@ -33,9 +33,9 @@ const phieuCapPhatHeaders = ['STT', 'Tên vật tư', 'Số lượng', 'Đơn v�
 
 const defaultBaoCao = {
   table: [
-    ['1', 'Nguyễn Văn A', '01/01/1990', '2024A', 'Đang điều trị', '01/01/2024'],
-    ['2', 'Trần Thị B', '02/02/1992', '2024B', 'Hoàn thành', '01/01/2024'],
-    ['3', 'Lê Văn C', '03/03/1991', '2024A', 'Tái nghiện', '01/01/2024'],
+    ['1', 'Nguyễn Minh Tuấn', '01/01/1990', '2024A', 'Đang điều trị', '01/01/2024'],
+    ['2', 'Lê Thị Hồng', '02/02/1992', '2024B', 'Hoàn thành', '01/01/2024'],
+    ['3', 'Phạm Văn Dương', '03/03/1991', '2024A', 'Tái nghiện', '01/01/2024'],
   ],
   summary: 'Tổng số học viên: 3. Đang điều trị: 1. Hoàn thành: 1. Tái nghiện: 1.'
 };

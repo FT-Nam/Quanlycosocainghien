@@ -16,7 +16,7 @@ export default function PhongBanDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setData({ maPhong: 'PB01', tenPhong: 'Phòng Hành chính', trangThai: 'Hoạt động', phuTrach: 'Nguyễn Văn A', soLuong: 5, danhSach: 'A, B, C, D, E' });
+            setData({ maPhong: 'PB01', tenPhong: 'Phòng Hành chính', trangThai: 'Hoạt động', phuTrach: 'Nguyễn Văn Hiệp', soLuong: 5, danhSach: 'A, B, C, D, E' });
         } else {
             setData(initData);
         }

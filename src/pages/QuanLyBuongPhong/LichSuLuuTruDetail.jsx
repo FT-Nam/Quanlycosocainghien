@@ -16,7 +16,7 @@ export default function LichSuLuuTruDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setData({ tenHocVien: 'Nguyễn Văn A', maHocVien: 'HV01', vaoPhong: '2024-06-01', raPhong: '2024-07-01', ghiChu: 'Chuyển phòng' });
+            setData({ tenHocVien: 'Nguyễn Minh Vũ', maHocVien: 'HV01', vaoPhong: '2024-06-01', raPhong: '2024-07-01', ghiChu: 'Chuyển phòng' });
         } else {
             setData(initData);
         }

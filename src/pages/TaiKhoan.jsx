@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 const getUser = () => {
   return JSON.parse(localStorage.getItem('user')) || {
-    name: 'Nguyễn Văn A',
-    email: 'vana@trungtam.gov.vn',
+    name: 'Phạm Xuân Quý',
+    email: 'quy.pham@trungtam.gov.vn',
     role: 'Cán bộ quản lý',
     username: 'CB2034',
     isAdmin: true,

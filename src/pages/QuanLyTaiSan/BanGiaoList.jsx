@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', maTaiSan: 'TS01', nguoiBanGiao: 'Nguyễn Văn A', nguoiNhan: 'Trần Thị B', ngayBanGiao: '2024-07-01', tinhTrang: 'Tốt' },
-    { id: '2', maTaiSan: 'TS02', nguoiBanGiao: 'Nguyễn Văn C', nguoiNhan: 'Lê Văn D', ngayBanGiao: '2024-07-02', tinhTrang: 'Cần sửa' },
+    { id: '1', maTaiSan: 'TS01', nguoiBanGiao: 'Nguyễn Văn Hùng', nguoiNhan: 'Trần Thị Huyền', ngayBanGiao: '2024-07-01', tinhTrang: 'Tốt' },
+    { id: '2', maTaiSan: 'TS02', nguoiBanGiao: 'Nguyễn Văn Nam', nguoiNhan: 'Lê Văn Đức', ngayBanGiao: '2024-07-02', tinhTrang: 'Cần sửa' },
 ];
 
 export default function BanGiaoList() {

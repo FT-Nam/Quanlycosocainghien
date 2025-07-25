@@ -16,7 +16,7 @@ export default function SuaChuaDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setData({ maTaiSan: 'TS01', tinhTrangBanDau: 'Hỏng', tinhTrangSuaChua: 'Đã sửa', ngaySuaChua: '2024-07-01', nguoiChiuTN: 'Nguyễn Văn A' });
+            setData({ maTaiSan: 'TS01', tinhTrangBanDau: 'Hỏng', tinhTrangSuaChua: 'Đã sửa', ngaySuaChua: '2024-07-01', nguoiChiuTN: 'Nguyễn Văn Nam' });
         } else {
             setData(initData);
         }

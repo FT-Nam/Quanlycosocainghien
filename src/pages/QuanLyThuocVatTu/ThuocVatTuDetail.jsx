@@ -24,7 +24,7 @@ export default function ThuocVatTuDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setValues({ maSanPham: 'SP001', sku: 'SKU001', loaiSanPham: 'Thuốc', donViTinh: 'Hộp', nhaCungCap: 'Công ty Dược A', moTa: 'Thuốc giảm đau', giaNhap: '100000' });
+            setValues({ maSanPham: 'SP001', sku: 'SKU001', loaiSanPham: 'Thuốc', donViTinh: 'Hộp', nhaCungCap: 'Công ty Dược Hà Nội', moTa: 'Thuốc giảm đau', giaNhap: '100000' });
         } else {
             setValues(defaultValues);
         }

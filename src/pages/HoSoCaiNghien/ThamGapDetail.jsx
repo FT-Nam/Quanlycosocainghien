@@ -19,7 +19,7 @@ export default function ThamGapDetail({ mode }) {
         if (!isNew && id) {
             // TODO: fetch data by id
             setData({
-                thoiGianThamGap: '2023-06-01', tenThanNhan: 'Nguyễn Thị C', cccdThanNhan: '012345678900', loaiThamGap: 'Thăm gặp trực tiếp', moiQuanHe: 'Mẹ', hoTen: 'Nguyễn Văn A', tenKhac: '', ngaySinh: '1990-01-01', gioiTinh: 'Nam', queQuan: 'Hà Nội', danToc: 'Kinh', tonGiao: 'Không', quocTich: 'Việt Nam', nhomMau: 'O', ngayCapCCCD: '2010-01-01', noiCapCCCD: 'Hà Nội', ngayHetHanCCCD: '2030-01-01', noiThuongTru: 'Hà Nội', noiTamTru: '', noiOHienTai: 'Hà Nội', honNhan: 'Độc thân', quanHeVoiNguoiCaiNghien: 'Con'
+                thoiGianThamGap: '2023-06-01', tenThanNhan: 'Phạm Thị Mai', cccdThanNhan: '012345678900', loaiThamGap: 'Thăm gặp trực tiếp', moiQuanHe: 'Mẹ', hoTen: 'Lê Quang Huy', tenKhac: '', ngaySinh: '1990-01-01', gioiTinh: 'Nam', queQuan: 'Hà Nội', danToc: 'Kinh', tonGiao: 'Không', quocTich: 'Việt Nam', nhomMau: 'O', ngayCapCCCD: '2010-01-01', noiCapCCCD: 'Hà Nội', ngayHetHanCCCD: '2030-01-01', noiThuongTru: 'Hà Nội', noiTamTru: '', noiOHienTai: 'Hà Nội', honNhan: 'Độc thân', quanHeVoiNguoiCaiNghien: 'Con'
             });
         } else {
             setData(initData);

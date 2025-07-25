@@ -62,9 +62,9 @@ export default function DanhMucDetail({ mode }) {
                     </div>
                 </div>
                 {err && <div className="form-err" style={{ marginTop: 8 }}>{err}</div>}
-                <div style={{ display: 'flex', gap: 12, justifyContent: 'flex-end', marginTop: 18 }}>
-                    <button type="button" onClick={() => nav(-1)}>Quay lại</button>
-                    {!isView && <button type="submit" style={{ background: '#8B0000', color: '#fff', border: 'none', borderRadius: 3, padding: '7px 18px', fontWeight: 600 }}>Lưu</button>}
+                <div className="form-footer">
+                    <button type="button" onClick={() => nav(-1)} className="form-btn back-btn">Quay lại</button>
+                    {!isView && <button type="submit" className="form-btn save-btn">{isNew ? 'Thêm mới' : 'Lưu'}</button>}
                 </div>
             </form>
         </div>

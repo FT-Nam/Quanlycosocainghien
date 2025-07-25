@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams, useLocation } from 'react-router-dom';
 
 const initData = {
-    thoiGianDanhGia: '', ketQuaYTe: '', ketQuaPhucHoi: '', ketQuaGiaoDuc: '', ketQuaLaoDong: '', ketQuaChuanBi: '', loaiXacNhan: '', soXacNhan: '', thoiGianCap: '', toChucQuanLy: '', thoiGianDeXuat: ''
+    thoiGianDanhGia: '', ketQuaYTe: '', ketQuaPhucHoi: '', ketQuaGiaoDuc: '', ketQuaLaoDong: '', ketQuaChuanBi: '', loaiXacNhan: '', soXacNhan: '', thoiGianCap: '', toChucQuanLy: '', thoiGianDeXuat: '', nguoiPhuTrach: ''
 };
 
 export default function TaiHoaNhapDetail({ mode }) {
@@ -19,7 +19,7 @@ export default function TaiHoaNhapDetail({ mode }) {
         if (!isNew && id) {
             // TODO: fetch data by id
             setData({
-                thoiGianDanhGia: '2023-07-01', ketQuaYTe: 'Đạt', ketQuaPhucHoi: 'Tốt', ketQuaGiaoDuc: 'Khá', ketQuaLaoDong: 'Tốt', ketQuaChuanBi: 'Đạt', loaiXacNhan: 'Giấy xác nhận', soXacNhan: 'XN001', thoiGianCap: '2023-07-10', toChucQuanLy: 'Trung tâm A', thoiGianDeXuat: '2023-08-01'
+                thoiGianDanhGia: '2023-07-01', ketQuaYTe: 'Đạt', ketQuaPhucHoi: 'Tốt', ketQuaGiaoDuc: 'Khá', ketQuaLaoDong: 'Tốt', ketQuaChuanBi: 'Đạt', loaiXacNhan: 'Giấy xác nhận', soXacNhan: 'XN001', thoiGianCap: '2023-07-10', toChucQuanLy: 'Trung tâm A', thoiGianDeXuat: '2023-08-01', nguoiPhuTrach: 'Vũ Thị Mai'
             });
         } else {
             setData(initData);
@@ -91,6 +91,10 @@ export default function TaiHoaNhapDetail({ mode }) {
                     <div className="form-group">
                         <label>Thời gian đề xuất quản lý sau cai</label>
                         <input type="date" name="thoiGianDeXuat" value={data.thoiGianDeXuat} onChange={handleChange} disabled={isView} />
+                    </div>
+                    <div className="form-group">
+                        <label>Người phụ trách</label>
+                        <input name="nguoiPhuTrach" value={data.nguoiPhuTrach} onChange={handleChange} disabled={isView} />
                     </div>
                 </div>
                 {err && <div className="form-err" style={{ marginTop: 8 }}>{err}</div>}

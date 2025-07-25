@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', hoTen: 'Nguyễn Văn A', toiDanh: 'Trộm cắp', namXu: '2018', mucAn: '2 năm', ghiChu: '' },
-    { id: '2', hoTen: 'Trần Thị B', toiDanh: 'Lừa đảo', namXu: '2020', mucAn: '3 năm', ghiChu: 'Đã chấp hành xong' },
+    { id: '1', hoTen: 'Nguyễn Minh Vũ', toiDanh: 'Trộm cắp', namXu: '2018', mucAn: '2 năm', ghiChu: '' },
+    { id: '2', hoTen: 'Vũ Phi Long', toiDanh: 'Lừa đảo', namXu: '2020', mucAn: '3 năm', ghiChu: 'Đã chấp hành xong' },
 ];
 
 export default function TienAnTienSuList() {

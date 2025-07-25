@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', maDot: 'LD001', tenDot: 'Lao động mùa hè', diaDiem: 'Xưởng A', loaiNganhNghe: 'Cơ khí', thoiGianBatDau: '2023-06-01', thoiGianKetThuc: '2023-06-30', soLuong: 20, phuTrach: 'Nguyễn Văn B' },
-    { id: '2', maDot: 'LD002', tenDot: 'Lao động mùa đông', diaDiem: 'Xưởng B', loaiNganhNghe: 'Điện tử', thoiGianBatDau: '2023-12-01', thoiGianKetThuc: '2023-12-31', soLuong: 15, phuTrach: 'Trần Thị C' },
+    { id: '1', maDot: 'LD001', tenDot: 'Lao động mùa hè', diaDiem: 'Xưởng 1', loaiNganhNghe: 'Cơ khí', thoiGianBatDau: '2023-06-01', thoiGianKetThuc: '2023-06-30', soLuong: 20, phuTrach: 'Nguyễn Văn Bình' },
+    { id: '2', maDot: 'LD002', tenDot: 'Lao động mùa đông', diaDiem: 'Xưởng 2', loaiNganhNghe: 'Điện tử', thoiGianBatDau: '2023-12-01', thoiGianKetThuc: '2023-12-31', soLuong: 15, phuTrach: 'Trần Thị Hồng' },
 ];
 
 export default function LaoDongTriLieuList() {

@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', maPhong: 'PB01', tenPhong: 'Phòng Hành chính', trangThai: 'Hoạt động', phuTrach: 'Nguyễn Văn A', soLuong: 5, danhSach: 'A, B, C, D, E' },
-    { id: '2', maPhong: 'PB02', tenPhong: 'Phòng Kế toán', trangThai: 'Hoạt động', phuTrach: 'Trần Thị B', soLuong: 3, danhSach: 'F, G, H' },
+    { id: '1', maPhong: 'PB01', tenPhong: 'Phòng Hành chính', trangThai: 'Hoạt động', phuTrach: 'Phan Thành Nam', soLuong: 5, danhSach: 'A, B, C, D, E' },
+    { id: '2', maPhong: 'PB02', tenPhong: 'Phòng Kế toán', trangThai: 'Hoạt động', phuTrach: 'Nguyễn Văn Hiệp', soLuong: 3, danhSach: 'F, G, H' },
 ];
 
 export default function PhongBanList() {

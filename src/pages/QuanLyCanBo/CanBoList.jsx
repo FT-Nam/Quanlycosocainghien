@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', maCanBo: 'CB01', tenCanBo: 'Nguyễn Văn A', cccd: '012345678901', ngaySinh: '1980-01-01', gioiTinh: 'Nam', queQuan: 'Hà Nội', danToc: 'Kinh', tonGiao: 'Không', quocTich: 'Việt Nam', noiOHienTai: 'Hà Nội', phongBan: 'Phòng Hành chính', hocVi: 'Thạc sĩ', hocHam: '', capBac: 'Chuyên viên', chucVu: 'Trưởng phòng', chucDanh: '', trangThai: 'Đang làm', batDau: '2010-01-01', ketThuc: '' },
-    { id: '2', maCanBo: 'CB02', tenCanBo: 'Trần Thị B', cccd: '012345678902', ngaySinh: '1985-05-10', gioiTinh: 'Nữ', queQuan: 'Nam Định', danToc: 'Kinh', tonGiao: 'Không', quocTich: 'Việt Nam', noiOHienTai: 'Nam Định', phongBan: 'Phòng Kế toán', hocVi: 'Cử nhân', hocHam: '', capBac: 'Nhân viên', chucVu: 'Kế toán viên', chucDanh: '', trangThai: 'Đang làm', batDau: '2015-03-01', ketThuc: '' },
+    { id: '1', maCanBo: 'CB01', tenCanBo: 'Phan Thành Nam', cccd: '012345678901', ngaySinh: '1980-01-01', gioiTinh: 'Nam', queQuan: 'Hà Nội', danToc: 'Kinh', tonGiao: 'Không', quocTich: 'Việt Nam', noiOHienTai: 'Hà Nội', phongBan: 'Phòng Hành chính', hocVi: 'Thạc sĩ', hocHam: '', capBac: 'Chuyên viên', chucVu: 'Trưởng phòng', chucDanh: '', trangThai: 'Đang làm', batDau: '2010-01-01', ketThuc: '' },
+    { id: '2', maCanBo: 'CB02', tenCanBo: 'Nguyễn Văn Hiệp', cccd: '012345678902', ngaySinh: '1985-05-10', gioiTinh: 'Nữ', queQuan: 'Nam Định', danToc: 'Kinh', tonGiao: 'Không', quocTich: 'Việt Nam', noiOHienTai: 'Nam Định', phongBan: 'Phòng Kế toán', hocVi: 'Cử nhân', hocHam: '', capBac: 'Nhân viên', chucVu: 'Kế toán viên', chucDanh: '', trangThai: 'Đang làm', batDau: '2015-03-01', ketThuc: '' },
 ];
 
 export default function CanBoList() {

@@ -20,7 +20,7 @@ export default function QuanLyKhoDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setValues({ soLuongTon: '100', soLuongSuDung: '80', soLuongDangXuLy: '20' });
+            setValues({ soLuongTon: '100', soLuongSuDung: '80', soLuongDangXuLy: '20', nguoiQuanLy: 'Nguyễn Thị Mai' });
         } else {
             setValues(defaultValues);
         }

@@ -19,7 +19,7 @@ export default function HocVanDetail({ mode }) {
         if (!isNew && id) {
             // TODO: fetch data by id
             setData({
-                trinhDoDaoTao: 'Đại học', ngheNghiep: 'Kỹ sư', noiLamViec: 'Công ty ABC', vanBang: 'Bằng kỹ sư', chuyenMonCaoNhat: 'Kỹ sư CNTT'
+                trinhDoDaoTao: 'Đại học', ngheNghiep: 'Kỹ sư', noiLamViec: 'Công ty ABC', vanBang: 'Bằng kỹ sư', chuyenMonCaoNhat: 'Kỹ sư CNTT',
             });
         } else {
             setData(initData);

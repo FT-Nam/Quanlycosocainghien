@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', cccd: '012345678901', hoTen: 'Nguyễn Văn A', ngaySinh: '1990-01-01', gioiTinh: 'Nam', queQuan: 'Hà Nội' },
-    { id: '2', cccd: '012345678902', hoTen: 'Trần Thị B', ngaySinh: '1992-02-02', gioiTinh: 'Nữ', queQuan: 'Nam Định' },
+    { id: '1', cccd: '012345678901', hoTen: 'Nguyễn Minh Vũ', ngaySinh: '1990-01-01', gioiTinh: 'Nam', queQuan: 'Hà Nội' },
+    { id: '2', cccd: '012345678902', hoTen: 'Vũ Phi Long', ngaySinh: '1992-02-02', gioiTinh: 'Nữ', queQuan: 'Nam Định' },
 ];
 
 export default function DanCuList() {

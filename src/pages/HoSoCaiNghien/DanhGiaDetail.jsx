@@ -19,7 +19,7 @@ export default function DanhGiaDetail({ mode }) {
         if (!isNew && id) {
             // TODO: fetch data by id
             setData({
-                loaiDanhGia: 'Tháng', tuan: '1', thang: '6', quy: '2', thoiGianXetDuyet: '2023-06-01', tongDiem: '90', ketQuaXepLoai: 'Tốt', thoiGianKT: '2023-05-01', hinhThucKT: 'Bằng khen', lyDoKT: 'Học tốt', thoiGianThucHienKT: '2023-05-10', thoiGianKL: '2023-04-01', hinhThucKL: 'Cảnh cáo', lyDoKL: 'Vi phạm nội quy', thoiGianThucHienKL: '2023-04-10'
+                loaiDanhGia: 'Tháng', tuan: '1', thang: '6', quy: '2', thoiGianXetDuyet: '2023-06-01', tongDiem: '90', ketQuaXepLoai: 'Tốt', thoiGianKT: '2023-05-01', hinhThucKT: 'Bằng khen', lyDoKT: 'Học tốt', thoiGianThucHienKT: '2023-05-10', thoiGianKL: '2023-04-01', hinhThucKL: 'Cảnh cáo', lyDoKL: 'Vi phạm nội quy', thoiGianThucHienKL: '2023-04-10', nguoiDanhGia: 'Phan Thị Hạnh'
             });
         } else {
             setData(initData);

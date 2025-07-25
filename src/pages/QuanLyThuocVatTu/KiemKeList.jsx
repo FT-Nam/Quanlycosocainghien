@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: 1, maSanPham: 'SP001', tenSanPham: 'Thuốc giảm đau', thoiGianKiemKe: '2024-07-01', slTonThucTe: 95, slChenhLech: -5, lyDo: 'Hao hụt', giaTriChenhLech: '-500000', nguoiThucHien: 'Nguyễn Văn A' },
-    { id: 2, maSanPham: 'SP002', tenSanPham: 'Băng gạc', thoiGianKiemKe: '2024-07-02', slTonThucTe: 50, slChenhLech: 0, lyDo: '', giaTriChenhLech: '0', nguoiThucHien: 'Trần Thị B' },
+    { id: 1, maSanPham: 'SP001', tenSanPham: 'Thuốc giảm đau', thoiGianKiemKe: '2024-07-01', slTonThucTe: 95, slChenhLech: -5, lyDo: 'Hao hụt', giaTriChenhLech: '-500000', nguoiThucHien: 'Nguyễn Văn Nam' },
+    { id: 2, maSanPham: 'SP002', tenSanPham: 'Băng gạc', thoiGianKiemKe: '2024-07-02', slTonThucTe: 50, slChenhLech: 0, lyDo: '', giaTriChenhLech: '0', nguoiThucHien: 'Trần Thị Hồng' },
     // ... thêm dữ liệu mẫu
 ];
 

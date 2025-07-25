@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: '1', maPhong: 'P101', tenPhong: 'Phòng 101', loaiPhong: 'Ngủ', soLuong: 10, sucChua: 12, tinhTrang: 'Đang sử dụng', phuTrach: 'Nguyễn Văn A', soLuongHocVien: 10 },
-    { id: '2', maPhong: 'P201', tenPhong: 'Phòng 201', loaiPhong: 'Học', soLuong: 8, sucChua: 10, tinhTrang: 'Trống', phuTrach: 'Trần Thị B', soLuongHocVien: 0 },
+    { id: '1', maPhong: 'P101', tenPhong: 'Phòng 101', loaiPhong: 'Ngủ', soLuong: 10, sucChua: 12, tinhTrang: 'Đang sử dụng', phuTrach: 'Nguyễn Văn Nam', soLuongHocVien: 10 },
+    { id: '2', maPhong: 'P201', tenPhong: 'Phòng 201', loaiPhong: 'Học', soLuong: 8, sucChua: 10, tinhTrang: 'Trống', phuTrach: 'Trần Thị Hồng', soLuongHocVien: 0 },
 ];
 
 export default function BuongPhongList() {

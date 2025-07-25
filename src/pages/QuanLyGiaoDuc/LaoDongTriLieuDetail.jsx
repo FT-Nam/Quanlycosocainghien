@@ -16,7 +16,7 @@ export default function LaoDongTriLieuDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setData({ maDot: 'LD001', tenDot: 'Lao động mùa hè', diaDiem: 'Xưởng A', loaiNganhNghe: 'Cơ khí', thoiGianBatDau: '2023-06-01', thoiGianKetThuc: '2023-06-30', soLuong: 20, phuTrach: 'Nguyễn Văn B' });
+            setData({ maDot: 'LD001', tenDot: 'Lao động mùa hè', diaDiem: 'Xưởng 1', loaiNganhNghe: 'Cơ khí', thoiGianBatDau: '2023-06-01', thoiGianKetThuc: '2023-06-30', soLuong: 20, phuTrach: 'Nguyễn Văn Bình' });
         } else {
             setData(initData);
         }

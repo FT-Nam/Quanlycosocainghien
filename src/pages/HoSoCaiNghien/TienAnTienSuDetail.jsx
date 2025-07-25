@@ -19,7 +19,7 @@ export default function TienAnTienSuDetail({ mode }) {
         if (!isNew && id) {
             // TODO: fetch data by id
             setData({
-                tongSoTienAn: '1', taiPham: 'Có', namXu: '2018', toaXu: 'TAND Q1', diaPhuong: 'Hà Nội', toiDanh: 'Trộm cắp', mucAn: '2 năm', noiChapHanhAn: 'Trại giam A', namTha: '2020', tinhTrang: 'Đã tha', ghiChuTienAn: '', soTienSu: '0', ghiChuTienSu: '', thoiGian: '', soQD: '', ngayQD: '', hanhViViPham: '', donViXuLy: '', hinhThucXuLy: '', noiChapHanh: '', batDau: '', ketThuc: ''
+                tongSoTienAn: '1', taiPham: 'Có', namXu: '2018', toaXu: 'TAND Q1', diaPhuong: 'Hà Nội', toiDanh: 'Trộm cắp', mucAn: '2 năm', noiChapHanhAn: 'Trại giam PC01', namTha: '2020', tinhTrang: 'Đã tha', ghiChuTienAn: '', soTienSu: '0', ghiChuTienSu: '', thoiGian: '', soQD: '', ngayQD: '', hanhViViPham: '', donViXuLy: 'PC01', hinhThucXuLy: '', noiChapHanh: '', batDau: '', ketThuc: ''
             });
         } else {
             setData(initData);

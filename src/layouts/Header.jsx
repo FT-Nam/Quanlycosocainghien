@@ -23,7 +23,7 @@ const Header = () => {
         </div>
         <div className="header-right">
           <div className="user-info">
-            <div className="user-name">Nguyễn Văn A</div>
+            <div className="user-name">Phạm Xuân Quý</div>
             <div className="user-role">Cán bộ quản lý</div>
           </div>
           <button className="logout-btn" style={{ background: 'none', border: 'none', color: '#8B0000', fontWeight: 600, fontSize: 16, display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer', padding: '0 8px' }}>

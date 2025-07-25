@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import PaginationControl from '../../components/PaginationControl';
 
 const mockData = [
-    { id: 1, maSanPham: 'SP001', sku: 'SKU001', loaiSanPham: 'Thuốc', donViTinh: 'Hộp', nhaCungCap: 'Công ty Dược A', moTa: 'Thuốc giảm đau', giaNhap: '100000' },
-    { id: 2, maSanPham: 'SP002', sku: 'SKU002', loaiSanPham: 'Vật tư', donViTinh: 'Cái', nhaCungCap: 'Công ty VTYT B', moTa: 'Băng gạc', giaNhap: '5000' },
+    { id: 1, maSanPham: 'SP001', sku: 'SKU001', loaiSanPham: 'Thuốc', donViTinh: 'Hộp', nhaCungCap: 'Công ty Dược Hà Nội', moTa: 'Thuốc giảm đau', giaNhap: '100000' },
+    { id: 2, maSanPham: 'SP002', sku: 'SKU002', loaiSanPham: 'Vật tư', donViTinh: 'Cái', nhaCungCap: 'Công ty VTYT Bắc Ninh', moTa: 'Băng gạc', giaNhap: '5000' },
     // ... thêm dữ liệu mẫu
 ];
 

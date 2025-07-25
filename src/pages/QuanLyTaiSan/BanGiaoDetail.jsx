@@ -16,7 +16,7 @@ export default function BanGiaoDetail({ mode }) {
     useEffect(() => {
         if (!isNew && id) {
             // TODO: fetch data by id
-            setData({ maTaiSan: 'TS01', nguoiBanGiao: 'Nguyễn Văn A', nguoiNhan: 'Trần Thị B', ngayBanGiao: '2024-07-01', tinhTrang: 'Tốt' });
+            setData({ maTaiSan: 'TS01', nguoiBanGiao: 'Nguyễn Văn Đức', nguoiNhan: 'Trần Thị Huyền', ngayBanGiao: '2024-07-01', tinhTrang: 'Tốt' });
         } else {
             setData(initData);
         }
