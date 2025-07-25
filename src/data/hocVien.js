@@ -1,7 +1,7 @@
 export const hocVienList = [
   {
     id: 'HV001',
-    hoTen: 'Nguyễn Văn A',
+    hoTen: 'Phạm Minh Quân',
     namSinh: '1990-01-01',
     cccd: '012345678901',
     diaChi: '123 Lê Lợi, Hà Nội',
@@ -12,7 +12,7 @@ export const hocVienList = [
     ngayVao: '2025-07-10',
     dotXuLy: 'Đợt 1',
     nguoiThan: [
-      { ten: 'Trần Thị B', quanHe: 'Mẹ', sdt: '0912345678', diaChi: '123 Lê Lợi, Hà Nội' }
+      { ten: 'Đặng Thị Hạnh', quanHe: 'Mẹ', sdt: '0912345678', diaChi: '123 Lê Lợi, Hà Nội' }
     ],
     taiPham: 'Không',
     ketQuaXetNghiem: 'Âm tính',
@@ -21,7 +21,7 @@ export const hocVienList = [
   },
   {
     id: 'HV002',
-    hoTen: 'Lê Văn B',
+    hoTen: 'Trần Thị Hồng',
     namSinh: '1988-05-12',
     cccd: '012345678902',
     diaChi: '456 Trần Hưng Đạo, Hải Phòng',
@@ -32,7 +32,7 @@ export const hocVienList = [
     ngayVao: '2025-06-15',
     dotXuLy: 'Đợt 2',
     nguoiThan: [
-      { ten: 'Ngô Văn C', quanHe: 'Anh', sdt: '0987654321', diaChi: '456 Trần Hưng Đạo, Hải Phòng' }
+      { ten: 'Nguyễn Văn Dương', quanHe: 'Anh', sdt: '0987654321', diaChi: '456 Trần Hưng Đạo, Hải Phòng' }
     ],
     taiPham: 'Có',
     ketQuaXetNghiem: 'Dương tính',
